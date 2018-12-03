@@ -25,3 +25,4 @@
 /.nb-gradle/
 *.jar
 .mvn/wrapper/maven-wrapper.properties
+src/main/resources/rebel.xml

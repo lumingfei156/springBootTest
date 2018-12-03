@@ -12,4 +12,10 @@ public interface IuserServer {
      * @return ss
      */
     String useConfig();
+
+    /**
+     * 通过bean来引用配置文件中的属性
+     * @return ss
+     */
+    String useConfigByBean();
 }

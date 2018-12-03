@@ -23,4 +23,11 @@ public class UserService {
         return userServer.useConfig();
     }
 
+    @RequestMapping(method = RequestMethod.GET, value = "useConfigByBean")
+    public String useConfigByBean(){
+        String s = userServer.useConfigByBean();
+        System.out.println(s);
+        return s;
+    }
+
 }

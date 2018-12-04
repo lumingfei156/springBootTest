@@ -1,5 +1,8 @@
 package com.springboot.inter;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
+
 /**
  * @author lulu
  * @since 2018/12/03
@@ -18,4 +21,11 @@ public interface IuserServer {
      * @return ss
      */
     String useConfigByBean();
+
+    /**
+     * 用户登陆操作
+     * @param request ss
+     * @return ss
+     */
+    Map<String,String> login(HttpServletRequest request);
 }

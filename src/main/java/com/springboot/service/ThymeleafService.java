@@ -24,7 +24,7 @@ public class ThymeleafService {
     @RequestMapping("index")
     public ModelAndView index(){
         List<ThymeleafBean> list = thymeleafServer.index();
-        ModelAndView modelAndView = new ModelAndView("/thymeleaf");
+        ModelAndView modelAndView = new ModelAndView("thymeleaf");
         modelAndView.addObject("learnList",list);
         return modelAndView;
     }

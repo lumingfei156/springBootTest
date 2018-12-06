@@ -8,21 +8,20 @@
 
     <div style="text-align: center;width: 100%">
         <label for="name">用户名</label>
-            <input type="text" id="name"> <br>
+        <input type="text" id="name"/> <br/>
         <label for="password">密码</label>
-            <input type="password" id="password">
-        <input type="submit" value="登陆" id="submit">
+        <input type="password" id="password"/><br/>
+        <input type="button"  value="登陆" id="submit"/>
     </div>
-</body>
-    <script src="../static/js/jquery.min.js" th:src="@{/js/jquery.min.js}"></script>
-    <script>
-        $(function() {
 
-            //简单登录操作
-            $("#submit").click(function (e) {
+    <script src="../static/js/jquery.min.js" th:src="@{/static/js/jquery.min.js}"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#submit").click(function(){
                 $.ajax({
                     type : "POST",
-                    url : "/userService/goLogin",
+                    url : "userService/goLogin",
                     data : {
                         "userName" : $("#userName").val(),
                         "password" : $("#password").val()
@@ -30,14 +29,16 @@
                     dataType : "json",
                     success : function(data) {
                         if (data.result === "1") {
-                            window.location.href ="/thymeleafService/index";
+                            window.location.href ="/springbootTest/thymeleafService/index";
                         } else {
                             alert("账号密码不能为空！");
                         }
                     }
                 });
+
             });
         });
-
     </script>
+</body>
+
 </html>

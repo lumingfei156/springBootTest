@@ -1,0 +1,13 @@
+14:23:26.659 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 8916 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
+14:23:26.663 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
+14:23:28.316 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:23:28.337 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:23:28.350 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:23:28.351 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+14:23:28.362 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
+14:23:28.525 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
+14:23:28.525 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1765 ms
+14:23:29.140 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:23:29.352 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:23:29.396 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
+14:23:29.406 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 3.707 seconds (JVM running for 11.74)

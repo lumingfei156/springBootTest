@@ -38,11 +38,11 @@ public class MyWebMvcConfigurerAdapter extends WebMvcConfigurationSupport  {
      *实现拦截器效果
      * @param registry ss
      */
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        // addPathPatterns 用于添加拦截规则
-        // excludePathPatterns 用户排除拦截
-        registry.addInterceptor(new MyInterceptor()).excludePathPatterns("/userService/goLogin","/login","/static/**").addPathPatterns("/**");
-        super.addInterceptors(registry);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        // addPathPatterns 用于添加拦截规则
+//        // excludePathPatterns 用户排除拦截
+//        registry.addInterceptor(new MyInterceptor()).excludePathPatterns("/userService/goLogin","/login","/static/**").addPathPatterns("/**");
+//        super.addInterceptors(registry);
+//    }
 }

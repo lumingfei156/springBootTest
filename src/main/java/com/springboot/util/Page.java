@@ -45,6 +45,8 @@ public class Page {
      */
     private List<Map<String, Object>> resultList;
 
+    public Page(){}
+
 
     /**分页构造函数
      * @param sql 包含筛选条件的sql，但不包含分页相关约束，如mysql的limit

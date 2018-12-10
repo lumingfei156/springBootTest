@@ -2,6 +2,7 @@ package com.myspringboot.springboottest;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.springboot.bean.ConfigBean;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,6 +23,7 @@ import javax.sql.DataSource;
 @SpringBootApplication
 @EnableConfigurationProperties({ConfigBean.class})
 @ComponentScan("com.springboot.*")
+@MapperScan("com.springboot.inter")
 public class SpringboottestApplication {
 
 	@Autowired

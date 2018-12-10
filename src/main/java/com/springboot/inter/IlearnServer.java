@@ -1,5 +1,6 @@
 package com.springboot.inter;
 
+import com.github.pagehelper.PageInfo;
 import com.springboot.entity.LearnBean;
 import com.springboot.util.Page;
 
@@ -45,5 +46,12 @@ public interface IlearnServer {
      * @return s
      */
     Page queryLearnResouceList(Map<String,Object> params);
+
+    /**
+     * 使用分页插件的查询
+     * @param params s
+     * @return s
+     */
+    PageInfo<LearnBean> queryByLike(Map<String,Object> params);
 
 }

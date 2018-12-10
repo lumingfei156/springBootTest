@@ -1,5 +1,6 @@
 package com.springboot.server;
 
+import com.github.pagehelper.PageInfo;
 import com.springboot.dao.LearnDao;
 import com.springboot.entity.LearnBean;
 import com.springboot.inter.IlearnServer;
@@ -42,5 +43,10 @@ public class LearnServer implements IlearnServer{
     @Override
     public Page queryLearnResouceList(Map<String, Object> params) {
         return learnDao.queryLearnResouceList(params);
+    }
+
+    @Override
+    public PageInfo<LearnBean> queryByLike(Map<String, Object> params) {
+        return null;
     }
 }

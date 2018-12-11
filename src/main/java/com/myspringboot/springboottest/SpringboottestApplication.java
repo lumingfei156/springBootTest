@@ -2,6 +2,7 @@ package com.myspringboot.springboottest;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.springboot.bean.ConfigBean;
+import com.springboot.util.MyMapper;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -10,8 +11,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 
@@ -22,8 +22,9 @@ import javax.sql.DataSource;
  */
 @SpringBootApplication
 @EnableConfigurationProperties({ConfigBean.class})
+@EnableTransactionManagement
 @ComponentScan("com.springboot.*")
-@MapperScan("com.springboot.inter")
+@tk.mybatis.spring.annotation.MapperScan(basePackages = "com.springboot.dao.mapper",markerInterface = MyMapper.class)
 public class SpringboottestApplication {
 
 	@Autowired

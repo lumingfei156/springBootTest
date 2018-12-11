@@ -1,6 +1,7 @@
-package com.springboot.inter;
+package com.springboot.dao.mapper;
 
 import com.springboot.entity.LearnBean;
+import com.springboot.util.MyMapper;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Component;
 
@@ -13,7 +14,7 @@ import java.util.Map;
  * mybatis中的DAO类，用来处理dao请求
  */
 @Component(value = "learnResourceDAO")
-public interface IlearnResourceDAO {
+public interface IlearnResourceDAO extends MyMapper<LearnBean>{
     /**
      * 新增方法
      * @param l l

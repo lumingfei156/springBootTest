@@ -3,7 +3,7 @@ package com.springboot.server;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.springboot.entity.LearnBean;
-import com.springboot.inter.IlearnResourceDAO;
+import com.springboot.dao.mapper.IlearnResourceDAO;
 import com.springboot.inter.IlearnServer;
 import com.springboot.util.Page;
 import org.springframework.beans.factory.annotation.Autowired;

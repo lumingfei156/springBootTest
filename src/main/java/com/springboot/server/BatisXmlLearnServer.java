@@ -4,7 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.springboot.entity.LearnBean;
 import com.springboot.inter.IlearnServer;
-import com.springboot.inter.IlearnXmlDAO;
+import com.springboot.dao.mapper.IlearnXmlDAO;
 import com.springboot.util.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,7 @@
-package com.springboot.inter;
+package com.springboot.dao.mapper;
 
 import com.springboot.entity.LearnBean;
+import com.springboot.util.MyMapper;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -12,7 +13,7 @@ import java.util.Map;
  * 使用xml方式配置的mapper
  */
 @Component(value = "learnXmlDAO")
-public interface IlearnXmlDAO {
+public interface IlearnXmlDAO extends MyMapper<LearnBean> {
     /**
      * 增
      * @param l s

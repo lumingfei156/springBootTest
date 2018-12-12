@@ -1,586 +1,296 @@
-10:17:59.146 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 4536 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-10:17:59.163 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-10:18:01.511 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-10:18:01.535 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-10:18:01.547 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-10:18:01.547 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-10:18:01.556 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-10:18:01.701 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-10:18:01.701 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2387 ms
-10:18:03.225 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-10:18:03.241 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-10:18:03.269 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
-10:18:03.276 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 5.472 seconds (JVM running for 19.355)
-10:21:04.007 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 14156 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-10:21:04.022 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-10:21:05.807 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-10:21:05.830 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-10:21:05.841 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-10:21:05.841 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-10:21:05.851 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-10:21:06.023 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-10:21:06.023 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1890 ms
-10:21:07.475 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-10:21:07.499 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-10:21:07.562 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
-10:21:07.569 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 4.405 seconds (JVM running for 12.292)
-10:22:08.315 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 17332 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-10:22:08.320 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-10:22:10.055 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-10:22:10.071 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-10:22:10.082 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-10:22:10.083 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-10:22:10.090 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-10:22:10.234 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-10:22:10.235 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1810 ms
-10:22:11.508 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-10:22:11.528 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-10:22:11.556 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
-10:22:11.561 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 4.055 seconds (JVM running for 11.729)
-15:13:58.893 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 19592 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:13:58.906 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:14:00.078 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.springboot.dao]' package. Please check your configuration.
-15:14:00.227 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
-tk.mybatis.mapper.MapperException: 注册通用Mapper[com.springboot.inter.MyMapper]失败，找不到该通用Mapper!
-	at tk.mybatis.mapper.mapperhelper.MapperHelper.registerMapper(MapperHelper.java:176)
-	at tk.mybatis.mapper.mapperhelper.MapperHelper.setProperties(MapperHelper.java:294)
-	at tk.mybatis.spring.mapper.ClassPathMapperScanner.setMapperProperties(ClassPathMapperScanner.java:115)
-	at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MapperAutoConfiguration.java:191)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:364)
-	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:363)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691)
-	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:528)
-	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
-	at com.myspringboot.springboottest.SpringboottestApplication.main(SpringboottestApplication.java:34)
-15:16:37.828 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 17372 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:16:37.840 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:16:38.462 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.springboot.dao]' package. Please check your configuration.
-15:16:38.592 logback [main] ERROR o.s.boot.SpringApplication - Application run failed
-tk.mybatis.mapper.MapperException: 注册通用Mapper[com.springboot.inter.MyMapper]失败，找不到该通用Mapper!
-	at tk.mybatis.mapper.mapperhelper.MapperHelper.registerMapper(MapperHelper.java:176)
-	at tk.mybatis.mapper.mapperhelper.MapperHelper.setProperties(MapperHelper.java:294)
-	at tk.mybatis.spring.mapper.ClassPathMapperScanner.setMapperProperties(ClassPathMapperScanner.java:115)
-	at tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MapperAutoConfiguration.java:191)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:364)
-	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:363)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
-	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:691)
-	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:528)
-	at org.springframework.context.support.AbstractApplicationContext.jrLockAndRefresh(AbstractApplicationContext.java:40002)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:41008)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
-	at com.myspringboot.springboottest.SpringboottestApplication.main(SpringboottestApplication.java:34)
-15:18:30.297 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 16132 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:18:30.302 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:18:31.006 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.springboot.dao]' package. Please check your configuration.
-15:18:31.269 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:18:31.284 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:18:32.556 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:18:32.581 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:18:32.596 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:18:32.596 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:18:32.605 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:18:33.126 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:18:33.126 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2684 ms
-15:18:33.673 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:18:33.679 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:18:33.728 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:18:33.861 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:30:59.398 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 6680 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:30:59.402 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:31:00.052 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.springboot.mapperinter]' package. Please check your configuration.
-15:31:00.191 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:31:00.198 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:31:00.981 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:31:00.996 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:31:01.006 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:31:01.006 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:31:01.013 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:31:01.142 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:31:01.142 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1630 ms
-15:31:01.522 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:31:01.526 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:31:01.553 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:31:01.658 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:32:00.556 logback [main] INFO  c.m.s.SpringboottestApplicationTests - Starting SpringboottestApplicationTests on DESKTOP-HHR2Q8R with PID 8716 (started by lulu in E:\Program\IDEA\springBootTest)
-15:32:00.558 logback [main] INFO  c.m.s.SpringboottestApplicationTests - No active profile set, falling back to default profiles: default
-15:32:01.242 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.springboot.mapperinter]' package. Please check your configuration.
-15:32:01.368 logback [main] WARN  t.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:32:01.373 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:32:01.804 logback [main] WARN  o.s.w.c.s.GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:32:01.811 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:32:01.905 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:32:01.908 logback [main] ERROR o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7817fd62] to prepare test instance [com.myspringboot.springboottest.SpringboottestApplicationTests@253b380a]
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
-	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
-	... 27 common frames omitted
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1644)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1203)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
-	... 45 common frames omitted
-15:32:38.968 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 1980 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:32:38.972 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:32:39.636 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.springboot.mapperinter]' package. Please check your configuration.
-15:32:39.767 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:32:39.774 logback [main] WARN  o.s.c.a.ClassPathScanningCandidateComponentProvider - No MyBatis mapper was found in '[com.myspringboot.springboottest]' package. Please check your configuration.
-15:32:40.575 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:32:40.590 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:32:40.599 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:32:40.599 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:32:40.606 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:32:40.762 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:32:40.762 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1667 ms
-15:32:41.196 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:32:41.201 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:32:41.238 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:32:41.374 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:39:35.067 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 17104 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:39:35.071 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:39:36.593 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:39:36.608 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:39:36.617 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:39:36.617 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:39:36.625 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:39:36.773 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:39:36.773 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1603 ms
-15:39:37.182 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:39:37.186 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:39:37.214 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:39:37.316 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:50:19.572 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 6392 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:50:19.577 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:50:21.093 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:50:21.108 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:50:21.117 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:50:21.117 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:50:21.124 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:50:21.241 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:50:21.241 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1549 ms
-15:50:21.429 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:50:21.435 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:50:21.642 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:50:21.750 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:53:13.430 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 4400 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:53:13.435 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:53:15.089 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:53:15.104 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:53:15.112 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:53:15.113 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:53:15.119 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:53:15.238 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:53:15.238 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1680 ms
-15:53:15.425 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:53:15.430 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:53:15.461 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:53:15.575 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:54:10.392 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 10324 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:54:10.397 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:54:11.884 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:54:11.898 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:54:11.907 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:54:11.907 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:54:11.914 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:54:12.034 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:54:12.034 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1526 ms
-15:54:12.247 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:54:12.251 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:54:12.444 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:54:12.563 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:58:08.971 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 5440 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:58:08.991 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:58:10.625 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:58:10.639 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:58:10.648 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:58:10.649 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:58:10.656 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:58:10.785 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:58:10.785 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1671 ms
-15:58:11.163 logback [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'batisLearnServer': Unsatisfied dependency expressed through field 'learnResourceDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-15:58:11.167 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-15:58:11.197 logback [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-15:58:11.301 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field learnResourceDAO in com.springboot.server.BatisLearnServer required a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.springboot.dao.mapper.IlearnResourceDAO' in your configuration.
-
-15:59:39.991 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 11840 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-15:59:39.996 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-15:59:41.494 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-15:59:41.507 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-15:59:41.516 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-15:59:41.516 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-15:59:41.523 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-15:59:41.644 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-15:59:41.645 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1535 ms
-15:59:43.198 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-15:59:43.213 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-15:59:43.241 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
-15:59:43.246 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 3.994 seconds (JVM running for 10.829)
-16:04:15.923 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-16:04:15.923 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-16:04:15.944 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
-16:04:16.318 logback [http-nio-8080-exec-1] WARN  c.a.d.p.v.MySqlValidConnectionChecker - Cannot resolve com.mysq.jdbc.Connection.ping method.  Will use 'SELECT 1' instead.
+09:49:46.081 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 13720 (started by lulu in E:\Program\IDEA\springBootTest)
+09:49:46.095 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+09:49:49.979 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 4.6 seconds (JVM running for 5.951)
+09:50:27.375 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 9676 (started by lulu in E:\Program\IDEA\springBootTest)
+09:50:27.376 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+09:50:30.928 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 4.044 seconds (JVM running for 6.424)
+09:50:48.584 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 2796 (started by lulu in E:\Program\IDEA\springBootTest)
+09:50:48.585 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+09:50:51.874 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.837 seconds (JVM running for 5.414)
+09:58:08.500 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 18068 (started by lulu in E:\Program\IDEA\springBootTest)
+09:58:08.504 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+09:58:11.354 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.36 seconds (JVM running for 4.46)
+10:10:23.571 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 4092 (started by lulu in E:\Program\IDEA\springBootTest)
+10:10:23.573 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+10:10:26.504 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.464 seconds (JVM running for 4.473)
+10:14:56.021 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 3908 (started by lulu in E:\Program\IDEA\springBootTest)
+10:14:56.023 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+10:14:58.676 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.145 seconds (JVM running for 4.14)
+10:14:59.266 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:14:59.338 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:18:58.102 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 12664 (started by lulu in E:\Program\IDEA\springBootTest)
+10:18:58.117 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+10:19:01.147 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.53 seconds (JVM running for 4.547)
+10:19:01.594 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:19:01.633 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:22:02.405 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 17444 (started by lulu in E:\Program\IDEA\springBootTest)
+10:22:02.407 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+10:22:05.233 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.328 seconds (JVM running for 4.319)
+10:22:05.679 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:22:05.728 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:22:21.772 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 19052 (started by lulu in E:\Program\IDEA\springBootTest)
+10:22:21.775 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+10:22:24.460 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.229 seconds (JVM running for 4.242)
+10:22:24.858 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:22:24.909 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:22:50.490 logback [main] INFO  c.s.server.BatisLearnServerTest - Starting BatisLearnServerTest on DESKTOP-HHR2Q8R with PID 16388 (started by lulu in E:\Program\IDEA\springBootTest)
+10:22:50.492 logback [main] INFO  c.s.server.BatisLearnServerTest - No active profile set, falling back to default profiles: default
+10:22:53.199 logback [main] INFO  c.s.server.BatisLearnServerTest - Started BatisLearnServerTest in 3.179 seconds (JVM running for 4.148)
+10:22:53.579 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:22:53.615 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:43:58.151 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 1440 (started by lulu in E:\Program\IDEA\springBootTest)
+10:43:58.153 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:44:00.906 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.218 seconds (JVM running for 4.134)
+10:44:01.095 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:44:01.095 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:44:01.110 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 15 ms
+10:44:01.257 logback [main] WARN  o.s.web.servlet.PageNotFound - No mapping for POST /springbootTest/batisLearnService/queryById
+10:44:23.303 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 14764 (started by lulu in E:\Program\IDEA\springBootTest)
+10:44:23.320 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:44:26.272 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.497 seconds (JVM running for 4.468)
+10:44:26.445 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:44:26.445 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:44:26.456 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 11 ms
+10:44:26.599 logback [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'params' is not present]
+10:45:52.416 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 11436 (started by lulu in E:\Program\IDEA\springBootTest)
+10:45:52.428 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:45:55.095 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.145 seconds (JVM running for 4.082)
+10:45:55.292 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:45:55.293 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:45:55.314 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 21 ms
+10:45:55.356 logback [main] WARN  o.s.web.servlet.PageNotFound - No mapping for POST /springbootTest/batisLearnService/queryById
+10:46:49.131 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 15532 (started by lulu in E:\Program\IDEA\springBootTest)
+10:46:49.134 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:46:52.555 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.96 seconds (JVM running for 4.924)
+10:46:52.787 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:46:52.788 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:46:52.816 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 28 ms
+10:46:52.858 logback [main] WARN  o.s.web.servlet.PageNotFound - No mapping for POST /springbootTest/batisUserService/queryById
+10:47:11.709 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 2404 (started by lulu in E:\Program\IDEA\springBootTest)
+10:47:11.727 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:47:14.752 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.514 seconds (JVM running for 4.525)
+10:47:14.934 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:47:14.934 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:47:14.948 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 14 ms
+10:47:15.003 logback [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'params' is not present]
+10:48:30.208 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 1224 (started by lulu in E:\Program\IDEA\springBootTest)
+10:48:30.211 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:48:33.178 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.457 seconds (JVM running for 4.488)
+10:48:33.372 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:48:33.372 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:48:33.391 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 19 ms
+10:48:33.458 logback [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'params' is not present]
+10:48:57.985 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 4816 (started by lulu in E:\Program\IDEA\springBootTest)
+10:48:57.986 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:49:01.375 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.903 seconds (JVM running for 5.521)
+10:49:01.625 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:49:01.626 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:49:01.650 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 24 ms
+10:49:01.717 logback [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'params' is not present]
+10:50:05.327 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 3676 (started by lulu in E:\Program\IDEA\springBootTest)
+10:50:05.329 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:50:08.355 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.563 seconds (JVM running for 4.66)
+10:50:08.565 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:50:08.566 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:50:08.581 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 15 ms
+10:50:08.631 logback [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'params' is not present]
+10:50:57.559 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 15216 (started by lulu in E:\Program\IDEA\springBootTest)
+10:50:57.561 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:51:00.520 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.571 seconds (JVM running for 4.718)
+10:51:00.724 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:51:00.724 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:51:00.743 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 19 ms
+10:51:19.924 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 13748 (started by lulu in E:\Program\IDEA\springBootTest)
+10:51:19.926 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:51:23.345 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.986 seconds (JVM running for 5.594)
+10:51:23.604 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:51:23.604 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:51:23.625 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 20 ms
+10:55:37.594 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 16812 (started by lulu in E:\Program\IDEA\springBootTest)
+10:55:37.595 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:55:41.077 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 4.042 seconds (JVM running for 5.485)
+10:55:41.307 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:55:41.307 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:55:41.334 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 27 ms
+10:56:10.154 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 17544 (started by lulu in E:\Program\IDEA\springBootTest)
+10:56:10.157 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:56:13.516 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.874 seconds (JVM running for 5.418)
+10:56:13.728 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:56:13.729 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:56:13.752 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 23 ms
+10:57:47.992 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 12776 (started by lulu in E:\Program\IDEA\springBootTest)
+10:57:47.994 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+10:57:50.961 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.506 seconds (JVM running for 4.565)
+10:57:51.135 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+10:57:51.135 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+10:57:51.148 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 12 ms
+11:02:06.506 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 13392 (started by lulu in E:\Program\IDEA\springBootTest)
+11:02:06.508 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+11:02:09.171 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.087 seconds (JVM running for 3.965)
+11:02:09.337 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+11:02:09.337 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+11:02:09.352 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 15 ms
+11:12:53.673 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 18396 (started by lulu in E:\Program\IDEA\springBootTest)
+11:12:53.675 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+11:12:56.377 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.149 seconds (JVM running for 4.06)
+11:12:56.554 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+11:12:56.554 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+11:12:56.564 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 10 ms
+11:13:20.860 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 8764 (started by lulu in E:\Program\IDEA\springBootTest)
+11:13:20.861 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+11:13:23.957 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.597 seconds (JVM running for 5.015)
+11:13:24.160 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+11:13:24.160 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+11:13:24.184 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 24 ms
+13:49:04.654 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 18872 (started by lulu in E:\Program\IDEA\springBootTest)
+13:49:04.665 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+13:49:08.346 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 4.524 seconds (JVM running for 6.024)
+13:49:08.669 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:49:08.669 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:49:08.682 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+13:49:26.174 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 13804 (started by lulu in E:\Program\IDEA\springBootTest)
+13:49:26.175 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+13:49:29.441 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.756 seconds (JVM running for 5.348)
+13:49:29.686 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:49:29.686 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:49:29.705 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 18 ms
+13:50:13.791 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 19180 (started by lulu in E:\Program\IDEA\springBootTest)
+13:50:13.793 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+13:50:16.352 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.04 seconds (JVM running for 3.956)
+13:50:16.521 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:50:16.522 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:50:16.535 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+13:57:49.685 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 8628 (started by lulu in E:\Program\IDEA\springBootTest)
+13:57:49.687 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+13:57:52.197 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 2.963 seconds (JVM running for 3.877)
+13:57:52.371 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:57:52.371 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:57:52.384 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+13:58:13.808 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 6660 (started by lulu in E:\Program\IDEA\springBootTest)
+13:58:13.810 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+13:58:16.696 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.364 seconds (JVM running for 4.331)
+13:58:16.907 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:58:16.907 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:58:16.923 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 16 ms
+13:59:09.317 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 19660 (started by lulu in E:\Program\IDEA\springBootTest)
+13:59:09.320 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+13:59:12.143 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.312 seconds (JVM running for 4.33)
+13:59:12.338 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+13:59:12.339 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+13:59:12.356 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 17 ms
+14:00:05.443 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 13768 (started by lulu in E:\Program\IDEA\springBootTest)
+14:00:05.457 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:00:08.103 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.173 seconds (JVM running for 4.149)
+14:00:08.314 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:00:08.314 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:00:08.331 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 17 ms
+14:01:01.407 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 7764 (started by lulu in E:\Program\IDEA\springBootTest)
+14:01:01.409 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:01:04.180 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.252 seconds (JVM running for 4.297)
+14:01:04.351 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:01:04.352 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:01:04.365 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+14:02:39.568 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 15108 (started by lulu in E:\Program\IDEA\springBootTest)
+14:02:39.582 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:02:42.261 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.141 seconds (JVM running for 4.031)
+14:02:42.475 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:02:42.475 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:02:42.488 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+14:03:37.417 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 9192 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
+14:03:37.425 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
+14:03:40.217 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:03:40.241 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:03:40.252 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:03:40.252 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+14:03:40.260 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
+14:03:40.426 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
+14:03:40.426 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2850 ms
+14:03:42.027 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:03:42.053 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:03:42.082 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
+14:03:42.089 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 5.67 seconds (JVM running for 18.706)
+14:03:59.005 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:03:59.005 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:03:59.014 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+14:03:59.589 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:04:45.799 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 11368 (started by lulu in E:\Program\IDEA\springBootTest)
+14:04:45.803 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:04:48.867 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.562 seconds (JVM running for 4.611)
+14:04:49.104 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:04:49.104 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:04:49.138 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 33 ms
+14:12:06.543 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 9472 (started by lulu in E:\Program\IDEA\springBootTest)
+14:12:06.546 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:12:09.569 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.533 seconds (JVM running for 4.485)
+14:12:09.758 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:12:09.758 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:12:09.774 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 15 ms
+14:13:19.018 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 18164 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
+14:13:19.027 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
+14:13:21.076 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:13:21.094 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:13:21.108 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:13:21.109 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+14:13:21.116 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
+14:13:21.265 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
+14:13:21.265 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2094 ms
+14:13:22.713 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:13:22.736 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:13:22.765 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
+14:13:22.771 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 4.834 seconds (JVM running for 13.36)
+14:13:34.901 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:13:34.901 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:13:34.909 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+14:13:35.104 logback [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springbootTest] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
 java.lang.NullPointerException: null
-	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.<init>(MySqlValidConnectionChecker.java:50)
-	at com.alibaba.druid.pool.DruidDataSource.initValidConnectionChecker(DruidDataSource.java:945)
-	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:660)
-	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:991)
-	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:987)
-	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:103)
-	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
-	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
-	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
-	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
-	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
-	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
-	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
-	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
-	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
-	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
-	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
-	at com.github.pagehelper.PageInterceptor.executeAutoCount(PageInterceptor.java:201)
-	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:113)
-	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
-	at com.sun.proxy.$Proxy88.query(Unknown Source)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
-	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
-	at com.sun.proxy.$Proxy67.selectList(Unknown Source)
-	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
-	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:137)
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:75)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
-	at com.sun.proxy.$Proxy76.queryByLike(Unknown Source)
-	at com.springboot.server.BatisXmlLearnServer.queryByLike(BatisXmlLearnServer.java:63)
-	at com.springboot.service.BatisXmlLearnService.queryByLike(BatisXmlLearnService.java:56)
-	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
-	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:40002)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-16:04:16.582 logback [http-nio-8080-exec-1] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
-16:23:02.769 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 12328 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-16:23:02.772 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-16:23:04.267 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-16:23:04.281 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-16:23:04.290 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-16:23:04.291 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-16:23:04.298 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-16:23:04.422 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-16:23:04.422 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1544 ms
-16:23:05.599 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-16:23:05.618 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-16:23:05.642 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
-16:23:05.647 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 3.647 seconds (JVM running for 11.213)
-16:24:49.783 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-16:24:49.783 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-16:24:49.792 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
-16:24:50.085 logback [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springbootTest] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.builder.BuilderException: Error invoking SqlProvider method (tk.mybatis.mapper.provider.base.BaseSelectProvider.dynamicSQL).  Cause: java.lang.InstantiationException: tk.mybatis.mapper.provider.base.BaseSelectProvider] with root cause
-java.lang.NoSuchMethodException: tk.mybatis.mapper.provider.base.BaseSelectProvider.<init>()
-	at java.lang.Class.getConstructor0(Class.java:3082)
-	at java.lang.Class.newInstance(Class.java:412)
-	at org.apache.ibatis.builder.annotation.ProviderSqlSource.createSqlSource(ProviderSqlSource.java:85)
-	at org.apache.ibatis.builder.annotation.ProviderSqlSource.getBoundSql(ProviderSqlSource.java:73)
-	at org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:292)
-	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:83)
-	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
-	at com.sun.proxy.$Proxy89.query(Unknown Source)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
-	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at com.springboot.service.BatisUserService.queryById(BatisUserService.java:27)
 	at sun.reflect.GeneratedMethodAccessor110.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
-	at com.sun.proxy.$Proxy67.selectOne(Unknown Source)
-	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:166)
-	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:82)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
-	at com.sun.proxy.$Proxy76.selectByPrimaryKey(Unknown Source)
-	at com.springboot.server.BatisUserServer.queryById(BatisUserServer.java:21)
-	at com.springboot.service.BatisUserService.queryById(BatisUserService.java:26)
-	at sun.reflect.GeneratedMethodAccessor108.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:40002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14:13:41.797 logback [http-nio-8080-exec-8] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:14:01.477 logback [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springbootTest] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.springboot.service.BatisUserService.queryById(BatisUserService.java:27)
+	at sun.reflect.GeneratedMethodAccessor110.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:45005)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
@@ -622,20 +332,43 @@ java.lang.NoSuchMethodException: tk.mybatis.mapper.provider.base.BaseSelectProvi
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-16:33:15.725 logback [main] INFO  c.m.s.SpringboottestApplication - Starting SpringboottestApplication on DESKTOP-HHR2Q8R with PID 13388 (E:\Program\IDEA\springBootTest\target\classes started by lulu in E:\Program\IDEA\springBootTest)
-16:33:15.730 logback [main] INFO  c.m.s.SpringboottestApplication - No active profile set, falling back to default profiles: default
-16:33:17.442 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-16:33:17.458 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-16:33:17.467 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-16:33:17.467 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-16:33:17.474 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;F:\software\programme\apache-maven-3.5.4\bin;F:\software\programme\svn\bin;F:\software\programme\mysql\mysql-5.7.22-winx64\bin;C:\Users\lulu\AppData\Local\Microsoft\WindowsApps;C:\Users\lulu\AppData\Local\GitHubDesktop\bin;F:\software\programme\bandizip\;.]
-16:33:17.598 logback [main] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring embedded WebApplicationContext
-16:33:17.599 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1740 ms
-16:33:18.961 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-16:33:18.975 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-16:33:18.998 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springbootTest'
-16:33:19.003 logback [main] INFO  c.m.s.SpringboottestApplication - Started SpringboottestApplication in 4.013 seconds (JVM running for 11.355)
-16:33:30.704 logback [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/springbootTest] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-16:33:30.704 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-16:33:30.710 logback [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
-16:33:31.030 logback [http-nio-8080-exec-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:14:46.929 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 13744 (started by lulu in E:\Program\IDEA\springBootTest)
+14:14:46.931 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:14:49.511 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.11 seconds (JVM running for 4.091)
+14:14:49.679 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:14:49.679 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:14:49.691 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 12 ms
+14:16:07.783 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 1908 (started by lulu in E:\Program\IDEA\springBootTest)
+14:16:07.786 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:16:10.208 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 2.864 seconds (JVM running for 3.768)
+14:16:10.372 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:16:10.372 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:16:10.385 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+14:24:46.240 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 8364 (started by lulu in E:\Program\IDEA\springBootTest)
+14:24:46.242 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:24:49.126 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.337 seconds (JVM running for 4.294)
+14:24:49.313 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:24:49.314 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:24:49.327 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+14:26:11.738 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 12124 (started by lulu in E:\Program\IDEA\springBootTest)
+14:26:11.740 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:26:14.471 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.193 seconds (JVM running for 4.126)
+14:26:14.648 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:26:14.648 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:26:14.660 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 12 ms
+14:28:58.118 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 9292 (started by lulu in E:\Program\IDEA\springBootTest)
+14:28:58.120 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:29:00.849 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.2 seconds (JVM running for 4.12)
+14:29:01.016 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:29:01.016 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:29:01.031 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 15 ms
+14:29:01.841 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:29:01.902 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:32:55.466 logback [main] INFO  c.s.service.BatisUserServiceTest - Starting BatisUserServiceTest on DESKTOP-HHR2Q8R with PID 18872 (started by lulu in E:\Program\IDEA\springBootTest)
+14:32:55.468 logback [main] INFO  c.s.service.BatisUserServiceTest - No active profile set, falling back to default profiles: default
+14:32:58.178 logback [main] INFO  c.s.service.BatisUserServiceTest - Started BatisUserServiceTest in 3.229 seconds (JVM running for 4.184)
+14:32:58.419 logback [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+14:32:58.419 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+14:32:58.437 logback [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 18 ms
+14:32:58.853 logback [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:32:58.919 logback [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

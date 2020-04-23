@@ -7,9 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ExecutorService;
 
 /**
  * @author lulu
@@ -25,6 +27,9 @@ public class UserServer implements IuserServer{
 
     @Autowired
     ConfigBean configBean;
+
+    @Resource(name = "consumerQueueThreadPool")
+    private ExecutorService consumerQueueThreadPool;
 
     /**
      * 在接口文件中使用application.properties中的属性
